@@ -80,7 +80,7 @@
                         <td>${valueProduct.factoryName}</td>
                         <td>${valueProduct.total}</td>
                         <td>${valueProduct.coste}</td>
-                        <td><fmt:formatNumber var="formattedBillableTime" type="number" minFractionDigits="2" maxFractionDigits="2" value="${valueProduct.coste*valueProduct.total}" /></td>
+                        <td><fmt:formatNumber type="number" minFractionDigits="2" maxFractionDigits="2" value="${valueProduct.coste*valueProduct.total}" /></td>
                     </tr>
                 </c:forEach>
             </tbody>
