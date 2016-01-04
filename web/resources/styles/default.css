@@ -1,0 +1,144 @@
+.cleartable1{
+    padding: 0 0 0 0;
+    margin: 0 0 0 0;
+    width: 250px;
+}
+
+.cleartable{
+    padding: 0 0 0 0;
+    margin: 0 0 0 0;
+    width: 250px;
+}
+
+.cleartable td{
+    background: transparent !important;
+}
+.cleartd{
+    padding: 1px 1px 1px 1px;
+    margin: 0 0 0 0;
+}
+
+.clearhs{
+    padding: 0 0 0 0;
+    margin: 0 0 0 0;
+}
+.h3color{
+    color:#fdf9eb;
+    font-size: 12px;
+}
+
+h1{
+    color: #cc8632;
+    font-size: 18px;
+    line-height: 1em;
+}
+
+table{
+    padding: 0 0 0 0;
+    margin: 0 0 0 0;
+}
+.errorMenssage{
+    font-size: 10px;
+    color: #f3410d;
+}
+.mmbutton{
+    width: 120px; 
+    height: 22px;
+}
+.minputtext{
+    font-size: 12px;
+    display: inline;
+    padding-bottom: 4px; 
+    padding-top: 4px;
+}
+.minputtext:hover{
+    border: thin #f8893f solid;
+}
+.minputtext:focus{
+    border: thin #f8893f solid !important;
+}
+.minputtext:focus:hover{
+    border: thin #f8893f solid;
+}
+
+.minputtext[readonly]{
+    background-color: #f1f2da;
+    border: 1px solid #dadada;
+}
+.minputtext [disabled]{
+    background-color: #bbbbbb;
+}
+.mselect{
+    font-size: 12px;
+    border: thin #bbbbbb solid;
+    background: #f5f0e5;
+    color: #3f3731;
+    padding-bottom: 3px;
+    padding-top: 3px;
+}
+.mselect:hover{
+    border: thin #d49768 solid;
+    color: #a46313;
+}
+.mselect:focus{
+    border: thin #f8893f solid;
+}
+.mselect:focus:hover{
+    border: thin #f8893f solid;
+}
+.mselect option{
+    font-size: 12px;
+    color:#000;
+}
+
+.myrow{
+    visibility: hidden;
+    width: 1px !important;
+
+}
+.onlyread{
+    background: #dddddd !important;
+    font-size: 12px;
+}
+
+.row_selected td{
+    background-color: #F1EBDF !important;
+    border-bottom: 1px #f8893f solid !important;
+    border-top: 1px #f8893f solid !important;
+    font-weight: bold;
+}
+
+.error{
+    display: block;
+}
+
+table.dataTable tbody th, table.dataTable tbody td {
+    //padding: 4px 8px !important;
+}
+
+.table-bordered thead tr th {
+    border: 1px solid black;
+}
+
+.table-bordered tbody tr td {
+    border: 1px solid black;
+}
+
+.inlinelinks{
+    display: inline-block !important;
+}
+
+.p-acrsys{
+    font-size: 10px;
+    font-weight: 700;
+}
+.p-acrsys_small{
+    font-size: 8px;
+    font-weight: 700;
+}
+
+.no-close .ui-dialog-titlebar-close {display: none }
+
+.dt_td{
+    text-align: center;
+}

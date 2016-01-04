@@ -1,0 +1,246 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<!DOCTYPE tiles-definitions PUBLIC "-//Apache Software Foundation//DTD Tiles Configuration 2.1//EN" "http://tiles.apache.org/dtds/tiles-config_2_1.dtd">
+<tiles-definitions>
+    <definition name="base.principal3" template="/WEB-INF/jsp/layouts/layout_dialog.jsp" >
+        <put-attribute name="body" value="" />
+    </definition>
+    
+    <definition name="personDelete" extends="base.principal3">
+        <put-attribute name="body" value="/WEB-INF/jsp/personal/personDelete.jsp" />
+    </definition>
+    <definition name="getListPersonByCriteria" extends="base.principal3">
+        <put-attribute name="body" value="/WEB-INF/jsp/personal/getListPersonByCriteria.jsp" />
+    </definition>
+    <definition name="ciExistEmployee" extends="base.principal3">
+        <put-attribute name="body" value="/WEB-INF/jsp/personal/ciExistEmployee.jsp" />
+    </definition>
+    <definition name="uploadEmployeeAjax" extends="base.principal3">
+        <put-attribute name="body" value="/WEB-INF/jsp/personal/uploadEmployeeAjax.jsp" />
+    </definition>
+    <definition name="personCreate" extends="base.principal3">
+        <put-attribute name="body" value="/WEB-INF/jsp/personal/personCreate.jsp" />
+    </definition>
+    <definition name="getPerson" extends="base.principal3">
+        <put-attribute name="body" value="/WEB-INF/jsp/personal/getPerson.jsp" />
+    </definition>
+    <definition name="employeeCreate" extends="base.principal3">
+        <put-attribute name="body" value="/WEB-INF/jsp/personal/employeeCreate.jsp" />
+    </definition>
+    <definition name="personValidateCi" extends="base.principal3">
+        <put-attribute name="body" value="/WEB-INF/jsp/personal/personValidateCi.jsp" />
+    </definition>
+    <definition name="branchJson" extends="base.principal3">
+        <put-attribute name="body" value="/WEB-INF/jsp/personal/branchJson.jsp" />
+    </definition>
+    
+    <definition name="productCreate" extends="base.principal3">
+        <put-attribute name="body" value="/WEB-INF/jsp/product/productCreate.jsp" />
+    </definition>
+    <definition name="productDelete" extends="base.principal3">
+        <put-attribute name="body" value="/WEB-INF/jsp/product/productDelete.jsp" />
+    </definition>
+    <definition name="productValidNameAjax" extends="base.principal3">
+        <put-attribute name="body" value="/WEB-INF/jsp/product/productValidNameAjax.jsp" />
+    </definition>
+    <definition name="productValidNameEditAjax" extends="base.principal3">
+        <put-attribute name="body" value="/WEB-INF/jsp/product/productValidNameEditAjax.jsp" />
+    </definition>
+    <definition name="createProduct" extends="base.principal3">
+        <put-attribute name="body" value="/WEB-INF/jsp/product/createProduct.jsp" />
+    </definition>
+    <definition name="editProduct" extends="base.principal3">
+        <put-attribute name="body" value="/WEB-INF/jsp/product/editProduct.jsp" />
+    </definition>
+    <definition name="pvalidateSession" extends="base.principal3">
+        <put-attribute name="body" value="/WEB-INF/jsp/product/validateSession.jsp" />
+    </definition>
+    <definition name="productEdit" extends="base.principal3">
+        <put-attribute name="body" value="/WEB-INF/jsp/product/productEdit.jsp" />
+    </definition>
+    <definition name="getListProductByCriteria" extends="base.principal3">
+        <put-attribute name="body" value="/WEB-INF/jsp/product/getListProductByCriteria.jsp" />
+    </definition>
+    <definition name="getListProductByCriteriaUpload" extends="base.principal3">
+        <put-attribute name="body" value="/WEB-INF/jsp/product/getListProductByCriteriaUpload.jsp" />
+    </definition>
+    
+    <definition name="categoryDelete" extends="base.principal3">
+        <put-attribute name="body" value="/WEB-INF/jsp/category/categoryDelete.jsp" />
+    </definition>
+    <definition name="categoryUpdate" extends="base.principal3">
+        <put-attribute name="body" value="/WEB-INF/jsp/category/categoryUpdate.jsp" />
+    </definition>
+    <definition name="categoryCreate" extends="base.principal3">
+        <put-attribute name="body" value="/WEB-INF/jsp/category/categoryCreate.jsp" />
+    </definition>
+    <definition name="categoryValidName" extends="base.principal3">
+        <put-attribute name="body" value="/WEB-INF/jsp/category/categoryValidName.jsp" />
+    </definition>
+    <definition name="categoryCreteAjax" extends="base.principal3">
+        <put-attribute name="body" value="/WEB-INF/jsp/category/categoryCreteAjax.jsp" />
+    </definition>
+    <definition name="allCategoryAjax" extends="base.principal3">
+        <put-attribute name="body" value="/WEB-INF/jsp/category/allCategoryAjax.jsp" />
+    </definition>
+    <definition name="createCategory" extends="base.principal3">
+        <put-attribute name="body" value="/WEB-INF/jsp/category/createCategory.jsp" />
+    </definition>
+    
+    <definition name="branchDelete" extends="base.principal3">
+        <put-attribute name="body" value="/WEB-INF/jsp/category/branchDelete.jsp" />
+    </definition>
+    <definition name="branchUpdate" extends="base.principal3">
+        <put-attribute name="body" value="/WEB-INF/jsp/branch/branchUpdate.jsp" />
+    </definition>
+    <definition name="branchValidName" extends="base.principal3">
+        <put-attribute name="body" value="/WEB-INF/jsp/branch/branchValidName.jsp" />
+    </definition>
+    <definition name="branchValidNameUpdate" extends="base.principal3">
+        <put-attribute name="body" value="/WEB-INF/jsp/branch/branchValidNameUpdate.jsp" />
+    </definition>
+    <definition name="branchCreate" extends="base.principal3">
+        <put-attribute name="body" value="/WEB-INF/jsp/branch/branchCreate.jsp" />
+    </definition>
+    <definition name="branchValidDelete" extends="base.principal3">
+        <put-attribute name="body" value="/WEB-INF/jsp/branch/branchValidDelete.jsp" />
+    </definition>
+    
+    <definition name="createProvider" extends="base.principal3">
+        <put-attribute name="body" value="/WEB-INF/jsp/inventory/createProvider.jsp" />
+    </definition>
+    
+    <definition name="createFactory" extends="base.principal3">
+        <put-attribute name="body" value="/WEB-INF/jsp/inventory/createFactory.jsp" />
+    </definition>
+    <definition name="factoryCreate" extends="base.principal3">
+        <put-attribute name="body" value="/WEB-INF/jsp/inventory/factoryCreate.jsp" />
+    </definition>
+    <definition name="factoryValidName" extends="base.principal3">
+        <put-attribute name="body" value="/WEB-INF/jsp/inventory/factoryValidName.jsp" />
+    </definition>
+    
+    <definition name="inventoryNewProductAjax" extends="base.principal3">
+        <put-attribute name="body" value="/WEB-INF/jsp/inventory/inventoryNewProductAjax.jsp" />
+    </definition>
+    <definition name="getPersonName" extends="base.principal3">
+        <put-attribute name="body" value="/WEB-INF/jsp/inventory/getPersonName.jsp" />
+    </definition>
+    
+    <definition name="getPersonAjax" extends="base.principal3">
+        <put-attribute name="body" value="/WEB-INF/jsp/inventory/getPersonAjax.jsp" />
+    </definition>
+    
+    <definition name="getClientAjax" extends="base.principal3">
+        <put-attribute name="body" value="/WEB-INF/jsp/client/getClientAjax.jsp" />
+    </definition>
+    
+    <definition name="uploadClientAjax" extends="base.principal3">
+        <put-attribute name="body" value="/WEB-INF/jsp/client/uploadClientAjax.jsp" />
+    </definition>
+    
+    <definition name="createPersonAjax" extends="base.principal3">
+        <put-attribute name="body" value="/WEB-INF/jsp/inventory/createPersonAjax.jsp" />
+    </definition>
+    
+    <definition name="validateCiAjax" extends="base.principal3">
+        <put-attribute name="body" value="/WEB-INF/jsp/inventory/validateCiAjax.jsp" />
+    </definition>
+    
+    <definition name="saveSaleAjax" extends="base.principal3">
+        <put-attribute name="body" value="/WEB-INF/jsp/inventory/saveSaleAjax.jsp" />
+    </definition>
+    
+    <definition name="createReserveAjax" extends="base.principal3">
+        <put-attribute name="body" value="/WEB-INF/jsp/inventory/createReserveAjax.jsp" />
+    </definition>
+    
+    <definition name="saleReserveListAjax" extends="base.principal3">
+        <put-attribute name="body" value="/WEB-INF/jsp/inventory/saleReserveListAjax.jsp" />
+    </definition>
+    
+    <definition name="recordProductAjax" extends="base.principal3">
+        <put-attribute name="body" value="/WEB-INF/jsp/inventory/recordProductAjax.jsp" />
+    </definition>
+    
+    <definition name="recordProductByBranchIdAjax" extends="base.principal3">
+        <put-attribute name="body" value="/WEB-INF/jsp/inventory/recordProductByBranchIdAjax.jsp" />
+    </definition>
+    
+    
+    <definition name="providerValidName" extends="base.principal3">
+        <put-attribute name="body" value="/WEB-INF/jsp/provider/providerValidName.jsp" />
+    </definition>
+    <definition name="createNewProvider" extends="base.principal3">
+        <put-attribute name="body" value="/WEB-INF/jsp/provider/createNewProvider.jsp" />
+    </definition>
+    <definition name="allProviderAjax" extends="base.principal3">
+        <put-attribute name="body" value="/WEB-INF/jsp/provider/allProviderAjax.jsp" />
+    </definition>
+    
+    <definition name="allFactoryAjax" extends="base.principal3">
+        <put-attribute name="body" value="/WEB-INF/jsp/factory/allFactoryAjax.jsp" />
+    </definition>
+    
+    <definition name="paymentCreteAjax" extends="base.principal3">
+        <put-attribute name="body" value="/WEB-INF/jsp/credit/payment.jsp" />
+    </definition>
+    <definition name="paymentSaveAjax" extends="base.principal3">
+        <put-attribute name="body" value="/WEB-INF/jsp/credit/paymentSaveAjax.jsp" />
+    </definition>
+    <definition name="getListCreditByProvider" extends="base.principal3">
+        <put-attribute name="body" value="/WEB-INF/jsp/credit/getListCreditByProvider.jsp" />
+    </definition>
+    <definition name="getListBuyCredit" extends="base.principal3">
+        <put-attribute name="body" value="/WEB-INF/jsp/credit/getListBuyCredit.jsp" />
+    </definition>
+    
+    <definition name="getListBuyProductByCreditId" extends="base.principal3">
+        <put-attribute name="body" value="/WEB-INF/jsp/credit/getListBuyProductByCreditId.jsp" />
+    </definition>
+    
+    <definition name="getListPaymentAjax" extends="base.principal3">
+        <put-attribute name="body" value="/WEB-INF/jsp/credit/getListPaymentAjax.jsp" />
+    </definition>
+    <definition name="reserveDetail" extends="base.principal3">
+        <put-attribute name="body"      value="/WEB-INF/jsp/inventory/reserveDetail.jsp" />
+    </definition>
+    
+    <definition name="sessionValid" extends="base.principal3">
+        <put-attribute name="body" value="/WEB-INF/jsp/sessionValid.jsp" />
+    </definition>
+    
+    <definition name="productCosteAverageJson" extends="base.principal3">
+        <put-attribute name="body" value="/WEB-INF/jsp/productCosteAverageJson.jsp" />
+    </definition>
+    
+    <definition name="reserveDetailAjax" extends="base.principal3">
+        <put-attribute name="body" value="/WEB-INF/jsp/inventorypp/reserveDetailAjax.jsp" />
+    </definition>
+    
+    <definition name="reserveSaveAjax" extends="base.principal3">
+        <put-attribute name="body" value="/WEB-INF/jsp/inventorypp/reserveSaveAjax.jsp" />
+    </definition>
+    
+    <definition name="saleAmountSaveAjax" extends="base.principal3">
+        <put-attribute name="body" value="/WEB-INF/jsp/inventorypp/saleAmountSaveAjax.jsp" />
+    </definition>
+    
+    <definition name="getDatesSalesAccoutnByBranchId" extends="base.principal3">
+        <put-attribute name="body" value="/WEB-INF/jsp/inventorypp/getDatesSalesAccoutnByBranchId.jsp" />
+    </definition>
+    
+    <definition name="editProductAjax" extends="base.principal3">
+        <put-attribute name="body" value="/WEB-INF/jsp/productpp/editProductAjax.jsp" />
+    </definition>
+    <definition name="priceSaleAverageAjax" extends="base.principal3">
+        <put-attribute name="body" value="/WEB-INF/jsp/productpp/priceSaleAverageAjax.jsp" />
+    </definition>
+    
+    <definition name="productSaveEditAjax" extends="base.principal3">
+        <put-attribute name="body" value="/WEB-INF/jsp/productpp/productSaveEditAjax.jsp" />
+    </definition>
+    
+    <definition name="productAverageAjax" extends="base.principal3">
+        <put-attribute name="body" value="/WEB-INF/jsp/productAverageAjax.jsp" />
+    </definition>
+</tiles-definitions>

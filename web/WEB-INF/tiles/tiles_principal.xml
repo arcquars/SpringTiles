@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<!DOCTYPE tiles-definitions PUBLIC "-//Apache Software Foundation//DTD Tiles Configuration 2.1//EN" "http://tiles.apache.org/dtds/tiles-config_2_1.dtd">
+<tiles-definitions>
+    <definition name="base.principal2" template="/WEB-INF/jsp/layouts/layout_main.jsp" >
+        <put-attribute name="header" value="" /> 
+        <put-attribute name="menu" value="" />
+        <put-attribute name="body" value="" /> 
+    </definition>
+    <definition name="base.principal3" template="/WEB-INF/jsp/layouts/layout_main.jsp" >
+        <put-attribute name="body" value="" /> 
+    </definition>
+    <definition name="helloaa" extends="base.principal2">
+        <put-attribute name="header" value="/WEB-INF/jsp/header.jsp" /> 
+        <put-attribute name="menu" value="/WEB-INF/jsp/menu.jsp" />
+        <put-attribute name="body" value="/WEB-INF/jsp/hello.jsp" /> 
+    </definition>
+    
+    <definition name="error" extends="base.principal2">
+        <put-attribute name="body" value="/WEB-INF/jsp/error.jsp" /> 
+    </definition>
+    
+    <definition name="registro" extends="base.principal2">
+        <put-attribute name="header" value="/WEB-INF/jsp/header.jsp" /> 
+        <put-attribute name="menu" value="/WEB-INF/jsp/menu.jsp" />
+        <put-attribute name="body" value="/WEB-INF/jsp/registro.jsp" /> 
+    </definition>
+    
+    <definition name="personalsearch" extends="base.principal2">
+        <put-attribute name="header" value="/WEB-INF/jsp/header.jsp" /> 
+        <put-attribute name="menu" value="/WEB-INF/jsp/menu.jsp" />
+        <put-attribute name="body" value="/WEB-INF/jsp/personal/personalSearch.jsp" /> 
+    </definition>
+    
+    <definition name="personEdit" extends="base.principal2">
+        <put-attribute name="header" value="/WEB-INF/jsp/header.jsp" /> 
+        <put-attribute name="menu" value="/WEB-INF/jsp/menu.jsp" />
+        <put-attribute name="body" value="/WEB-INF/jsp/personal/personEdit.jsp" /> 
+    </definition>
+    
+    
+    <definition name="productsearch" extends="base.principal2">
+        <put-attribute name="header" value="/WEB-INF/jsp/header.jsp" /> 
+        <put-attribute name="menu" value="/WEB-INF/jsp/menu.jsp" />
+        <put-attribute name="body" value="/WEB-INF/jsp/product/productsearch.jsp" /> 
+    </definition>
+    
+    <definition name="categorysearch" extends="base.principal2">
+        <put-attribute name="header" value="/WEB-INF/jsp/header.jsp" /> 
+        <put-attribute name="menu" value="/WEB-INF/jsp/menu.jsp" />
+        <put-attribute name="body" value="/WEB-INF/jsp/category/categorySearch.jsp" /> 
+    </definition>
+    
+    <definition name="clientsearch" extends="base.principal2">
+        <put-attribute name="header" value="/WEB-INF/jsp/header.jsp" /> 
+        <put-attribute name="menu" value="/WEB-INF/jsp/menu.jsp" />
+        <put-attribute name="body" value="/WEB-INF/jsp/client/clientSearch.jsp" /> 
+    </definition>
+    
+    <definition name="branchsearch" extends="base.principal2">
+        <put-attribute name="header" value="/WEB-INF/jsp/header.jsp" /> 
+        <put-attribute name="menu" value="/WEB-INF/jsp/menu.jsp" />
+        <put-attribute name="body" value="/WEB-INF/jsp/branch/branchSearch.jsp" /> 
+    </definition>
+    
+    <definition name="inventorysearch" extends="base.principal2">
+        <put-attribute name="header" value="/WEB-INF/jsp/header.jsp" /> 
+        <put-attribute name="menu" value="/WEB-INF/jsp/menu.jsp" />
+        <put-attribute name="body" value="/WEB-INF/jsp/inventory/inventorySearch.jsp" /> 
+    </definition>
+    <definition name="createBuy" extends="base.principal2">
+        <put-attribute name="header" value="/WEB-INF/jsp/header.jsp" /> 
+        <put-attribute name="menu" value="/WEB-INF/jsp/menu.jsp" />
+        <put-attribute name="body" value="/WEB-INF/jsp/inventory/createBuy.jsp" /> 
+    </definition>
+    <definition name="deliveryBranch" extends="base.principal2">
+        <put-attribute name="header" value="/WEB-INF/jsp/header.jsp" /> 
+        <put-attribute name="menu" value="/WEB-INF/jsp/menu.jsp" />
+        <put-attribute name="body" value="/WEB-INF/jsp/inventory/deliveryBranch.jsp" /> 
+    </definition>
+    <definition name="inventoryBranch" extends="base.principal2">
+        <put-attribute name="header" value="/WEB-INF/jsp/header.jsp" /> 
+        <put-attribute name="menu" value="/WEB-INF/jsp/menu.jsp" />
+        <put-attribute name="body" value="/WEB-INF/jsp/inventory/inventoryBranch.jsp" /> 
+    </definition>
+    <definition name="createSale" extends="base.principal2">
+        <put-attribute name="header" value="/WEB-INF/jsp/header.jsp" /> 
+        <put-attribute name="menu" value="/WEB-INF/jsp/menu.jsp" />
+        <put-attribute name="body" value="/WEB-INF/jsp/inventory/createSale.jsp" /> 
+    </definition>
+    <definition name="createReserve" extends="base.principal2">
+        <put-attribute name="header" value="/WEB-INF/jsp/header.jsp" /> 
+        <put-attribute name="menu" value="/WEB-INF/jsp/menu.jsp" />
+        <put-attribute name="body" value="/WEB-INF/jsp/inventory/createReserve.jsp" /> 
+    </definition>
+    <definition name="createRefund" extends="base.principal2">
+        <put-attribute name="header" value="/WEB-INF/jsp/header.jsp" /> 
+        <put-attribute name="menu" value="/WEB-INF/jsp/menu.jsp" />
+        <put-attribute name="body" value="/WEB-INF/jsp/inventory/createRefund.jsp" /> 
+    </definition>
+    <definition name="saleGain" extends="base.principal2">
+        <put-attribute name="header"    value="/WEB-INF/jsp/header.jsp" /> 
+        <put-attribute name="menu"      value="/WEB-INF/jsp/menu.jsp" />
+        <put-attribute name="body"      value="/WEB-INF/jsp/inventory/saleGain.jsp" /> 
+    </definition>
+    <definition name="salesAccount" extends="base.principal2">
+        <put-attribute name="header"    value="/WEB-INF/jsp/header.jsp" /> 
+        <put-attribute name="menu"      value="/WEB-INF/jsp/menu.jsp" />
+        <put-attribute name="body"      value="/WEB-INF/jsp/inventory/salesAccount.jsp" /> 
+    </definition>
+    <definition name="saleReserve" extends="base.principal2">
+        <put-attribute name="header"    value="/WEB-INF/jsp/header.jsp" /> 
+        <put-attribute name="menu"      value="/WEB-INF/jsp/menu.jsp" />
+        <put-attribute name="body"      value="/WEB-INF/jsp/inventory/saleReserve.jsp" /> 
+    </definition>
+    
+    <definition name="creditMain" extends="base.principal2">
+        <put-attribute name="header" value="/WEB-INF/jsp/header.jsp" /> 
+        <put-attribute name="menu" value="/WEB-INF/jsp/menu.jsp" />
+        <put-attribute name="body" value="/WEB-INF/jsp/credit/creditMain.jsp" /> 
+    </definition>
+    
+    <definition name="reportCredit" extends="base.principal2">
+        <put-attribute name="header" value="/WEB-INF/jsp/header.jsp" /> 
+        <put-attribute name="menu" value="/WEB-INF/jsp/menu.jsp" />
+        <put-attribute name="body" value="/WEB-INF/jsp/credit/reportCredit.jsp" /> 
+    </definition>
+    
+    <definition name="productAverage" extends="base.principal3">
+        <put-attribute name="body" value="/WEB-INF/jsp/productAverage.jsp" />
+    </definition>
+    
+    <definition name="reserveStore" extends="base.principal2">
+        <put-attribute name="header" value="/WEB-INF/jsp/header.jsp" /> 
+        <put-attribute name="menu" value="/WEB-INF/jsp/menu.jsp" />
+        <put-attribute name="body" value="/WEB-INF/jsp/inventory/reserveStore.jsp" /> 
+    </definition>
+    
+    <definition name="saleSelect" extends="base.principal2">
+        <put-attribute name="header" value="/WEB-INF/jsp/header.jsp" /> 
+        <put-attribute name="menu" value="/WEB-INF/jsp/menu.jsp" />
+        <put-attribute name="body" value="/WEB-INF/jsp/inventory/saleSelect.jsp" /> 
+    </definition>
+    
+    <definition name="saleReceive" extends="base.principal2">
+        <put-attribute name="header" value="/WEB-INF/jsp/header.jsp" /> 
+        <put-attribute name="menu" value="/WEB-INF/jsp/menu.jsp" />
+        <put-attribute name="body" value="/WEB-INF/jsp/inventory/saleReceive.jsp" /> 
+    </definition>
+    
+    <definition name="saleReport" extends="base.principal2">
+        <put-attribute name="header" value="/WEB-INF/jsp/header.jsp" /> 
+        <put-attribute name="menu" value="/WEB-INF/jsp/menu.jsp" />
+        <put-attribute name="body" value="/WEB-INF/jsp/inventory/saleReport.jsp" /> 
+    </definition>
+    
+</tiles-definitions>

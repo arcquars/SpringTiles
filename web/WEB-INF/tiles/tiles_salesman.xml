@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<!DOCTYPE tiles-definitions PUBLIC "-//Apache Software Foundation//DTD Tiles Configuration 2.1//EN" "http://tiles.apache.org/dtds/tiles-config_2_1.dtd">
+<tiles-definitions>
+    <definition name="pp" extends="base.principal2">
+        <put-attribute name="header" value="/WEB-INF/jsp/header.jsp" /> 
+        <put-attribute name="menu" value="/WEB-INF/jsp/menu_salesman.jsp" />
+        <put-attribute name="body" value="/WEB-INF/jsp/salesman/hello.jsp" /> 
+    </definition>
+    <definition name="createSaleSalesman" extends="base.principal2">
+        <put-attribute name="header" value="/WEB-INF/jsp/header.jsp" /> 
+        <put-attribute name="menu" value="/WEB-INF/jsp/menu_salesman.jsp" />
+        <put-attribute name="body" value="/WEB-INF/jsp/inventory/createSale.jsp" /> 
+    </definition>
+</tiles-definitions>

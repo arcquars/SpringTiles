@@ -1,0 +1,23 @@
+insert into spring.CATEGORY
+(CATEGORY_ID,CATEGORY_NAME,DEL) 
+values
+(null,'Pantalones Mujeres',0);
+insert into spring.CATEGORY
+(CATEGORY_ID,CATEGORY_NAME,DEL) 
+values
+(null,'Chamarras',0);
+insert into spring.CATEGORY
+(CATEGORY_ID,CATEGORY_NAME,DEL) 
+values
+(null,'Poleras Hombre',0);
+insert into spring.CATEGORY
+(CATEGORY_ID,CATEGORY_NAME,DEL) 
+values
+(null,'Blusas',0);
+insert into spring.CATEGORY
+(CATEGORY_ID,CATEGORY_NAME,DEL) 
+values
+(null,'Pantalones Hombres',0);
+
+
+

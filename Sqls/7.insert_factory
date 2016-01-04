@@ -1,0 +1,20 @@
+insert into FACTORY 
+(FACTORY_ID,NAME,ORIGIN,DEL)
+values
+(null, 'LG', 'japon', 0);
+insert into FACTORY 
+(FACTORY_ID,NAME,ORIGIN,DEL)
+values
+(null, 'SONY', 'japon', 0);
+insert into FACTORY 
+(FACTORY_ID,NAME,ORIGIN,DEL)
+values
+(null, 'PANASONIC', 'china', 0);
+insert into FACTORY 
+(FACTORY_ID,NAME,ORIGIN,DEL)
+values
+(null, 'SAMSUG', 'japon', 0);
+insert into FACTORY 
+(FACTORY_ID,NAME,ORIGIN,DEL)
+values
+(null, 'CRONW', 'japon', 0);
